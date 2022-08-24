@@ -4,37 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Social</title>
+    
 </head>
-<style>
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    body{
-        background-image: url(imagens/fundo-madeira.jpg);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: cover;
-    }
-    iframe{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        width: 311px;
-        height: 627px;
-    }
-</style>
 <body>
     <main>
-        <section>
-            <iframe src="imagens/frame-iphone.png" name="frame" id="name" frameborder="0"></iframe>
-        </section>
-        <section>
+        <section id="iframe">
+            <img src="imagens/frame-iphone.png" alt=""><iframe src="home.html" name="frame" id="frame" frameborder="0"></iframe></img>
             
+        </section>
+        <section id="social">
+            <a class="rede-social" href="home.html" target="frame"><img src="imagens/logo-home.jpg" alt="Home"></a><br>
+
+            <a class="rede-social" href="github.html"target="frame"><img src="imagens/logo-github.jpg" alt="GitHub"></a><br>
+
+            <a class="rede-social" href="youtube.html"target="frame"><img src="imagens/logo-youtube.jpg" alt="YouTube"></a><br>
+
+            <a class="rede-social" href="instagram.html"target="frame"><img src="imagens/logo-instagram.jpg" alt="Instagram"></a><br>
+
+            <a class="rede-social" href="twitter.html"target="frame"><img src="imagens/logo-twitter.jpg" alt="Twitter"></a><br>
+
+            <a class="rede-social" href="facebook.html"target="frame"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a>
+
         </section>
     </main>
 </body>

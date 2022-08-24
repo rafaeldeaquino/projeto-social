@@ -1,0 +1,47 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    position: relative;
+    background-size: cover;
+    width: 350px;
+
+}
+
+a{
+    background-color: darkred;
+    display: block;
+    color: white ;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+a:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+
+::-webkit-scrollbar{
+width: 0px;
+height: 0px;
+ }
+ 
+
+/* HOME */
+
+
+ .img-home{
+    position: absolute;
+    background-size: cover;
+    width: 350px;
+
+}
