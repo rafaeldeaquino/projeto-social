@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url(/imagens/fundo-madeira.jpg);
+    background-image: url('../imagens/fundo-madeira.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-position: top center;
@@ -19,7 +19,7 @@ iframe{
     height: 623px;
 }
 
-section#iframe > img{
+section#tela > img{
     width: 400px;
     position: absolute;
     left: 50%;
